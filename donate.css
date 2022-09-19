@@ -1,0 +1,42 @@
+body{
+  background-image : url('bg3.png');
+  background-attachment : fixed;
+  color:#551a8b;
+  font-family: 'Baloo Da 2', cursive;
+}
+.name{ /*Welcome to HMU*/
+display: inline-block;
+position:relative;
+left:521px;
+text-align : center;
+font-size : 50px;
+border-bottom: 4px solid purple;
+/* border : 4px solid red; */
+transition-property:all;
+transition-duration:2s;
+}
+.name:hover{
+transform:scale(1.1);
+}
+.name a{
+text-decoration: none;
+}
+.name a:active{
+  color : #551a8b;
+}
+.contents{
+margin: 132px 199px;
+padding: 60px 77px;
+border : 3px solid black;
+/* box-shadow: 0px 0px 3px black inset; */
+transition-property:all;
+transition-duration:2s;
+}
+.contents:hover{
+transform:scale(1.1);
+box-shadow: 0px 0px 20px black;
+cursor: default;
+}
+.contents a:active{
+color : #551a8b;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-HMU</title>
+    <link rel = "stylesheet" href = "..\CSS\main.css">
+    <link rel="stylesheet" href="../CSS/phone.css" media="screen and (max-width:1240px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Welcome to HMU -->
+    <h3 class = "heading"><a href="main.html">Welcome To HMU</a></h3>
+  
+    <!-- Navigation bar -->
+    <div class="navbar">
+      <ul>
+        <li><a href="about_us.html">About Us</a>
+        <li><a href="contact.html">Contact us</a>
+        <li><a href="donate.html">Donate</a>
+      </ul>
+    </div>
+          
+    <!--About you form-->
+<div id="forms">
+
+    <div class="form-input">
+       <form action="no.php">
+           <h2>About you (optional)!</h2>
+           <div class="text">
+                <div class="hover-here1"><label for="Name">Name: </label><input type="text" class="text-bar1" >
+                    <span class="pop1">Hmu users can use this name to reconnect with you</span></div>
+                <div class="lists"><label for="Gender">Gender: </label>Male<input type="radio">Female<input type="radio">Others<input type="radio"></div>
+            </div>
+        </form>
+    </div>
+    <!-- About Interest form -->
+    <div class="interest">
+        <form action = "no.php">
+            <h2>About your interest (optional)!</h2>
+            <div class="text">
+                <div class="hover-here2"><label for="Name">Name: </label><input type="text" class="text-bar2">
+                    <span class="pop2">The name that was given to you by the HMU user to reconnect with them</span></div>
+                <div class="class"><label for="Gender">Gender: </label>Male<input type="radio">Female<input type="radio">Others<input type="radio"></div>
+                <div class="class"><label for="Interests">Interests: </label><textarea name="interests" id="interests" cols="30" rows="10"></textarea></div>
+                <div class="hover-here3"><label for="Location">Allow HMU to access your location</label><input type="radio">
+                    <span class="pop3">This is a required field if you want to find friends at specific locations</span></div>
+            </div>
+        </form>
+    </div>
+          
+    <!-- Submit button-->
+    <div>
+        <button class="btn">Submit</button>
+    </div>
+              
+    <!--Pop ups-->
+    <div class="pop">
+    </div>
+              
+</div>
+</body>
+</html>

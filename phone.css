@@ -1,0 +1,17 @@
+body{
+    height:100%;
+    font:0.5rem;
+}
+.navbar{
+    width:38.5rem;
+}
+.navbar ul li{
+    /* padding:0px 0.5rem; */
+    margin: auto 3.3rem;
+}
+.pop1{
+    bottom: 53.7rem
+}
+.interests,.form-input{
+    padding:2.3rem 7.5rem;
+}
