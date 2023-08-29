@@ -1,0 +1,42 @@
+.senddet{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin: 7.375rem 19.3rem;
+    border: solid 2px purple;
+    width:30rem;
+    padding:3.5rem;
+    border-radius:10px;
+}
+.sendinp{
+    padding:1.875rem;
+}
+.sendinp>li{
+    list-style:none;
+    margin:1rem;
+    /* padding:23px; */
+}
+.nameli>input{
+    margin-left:10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid purple;
+    background: transparent;
+}
+.genderli{
+    display:flex;
+    /* width:233px; */
+}
+.genderul{
+    display:flex;
+    margin-left:-1.125rem;
+    
+    /* flex-direction; */
+}
+.genderul>li{
+    list-style:none;
+    padding:0 9px;
+}
+    
+    

@@ -1,0 +1,18 @@
+.app{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  background-attachment:fixed;
+  height:100%;
+}
+body{
+  height:100vh;
+  font-family: 'Poppins', sans-serif;
+}
+.title{
+  margin-top:20px;
+}
+.title>span{
+  font-weight: 600;
+}

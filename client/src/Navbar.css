@@ -1,0 +1,40 @@
+.navul{
+    display:flex;
+    border:border-box;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin-top:2.3rem;
+    border-radius:10px;
+    height:40px;
+    color:black
+    /* background:white; */
+}
+.navul>li{
+    list-style: none;
+    margin: 0rem 4.3rem;
+    display: block;
+    height: 22px;
+    /* border-bottom: 7px solid purple; */
+    color: purple;
+    padding: 8px 7px;
+    /* border-bottom:7px solid rgba(128,0,128,0); */
+    
+}
+.icon:active{
+    color:black;
+}
+/* @keyframes nav{
+    0%{
+        border-bottom:7px solid rgba(128,0,128,0);
+    }
+    100%{
+        border-bottom:7px solid rgba(128,0,128,1);
+    }
+}
+.navul>li:hover{
+    cursor:pointer;
+    animation-name:nav;
+    animation-duration:1s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode:forwards;
+} */

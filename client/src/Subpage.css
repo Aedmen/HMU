@@ -1,0 +1,16 @@
+.subpage{
+    display:block;
+    /* width:100%; */
+    margin:auto;
+    padding: 60px 77px;
+    border : 3px solid black;
+}
+.info{
+    margin: 195px 199px;
+}
+.contact{
+    margin: 243px 199px;
+}
+.chat{
+
+}
