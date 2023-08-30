@@ -1,24 +1,25 @@
-const express = require('express');
-//  //import mongoose from 'mongoose'
+ const express = require('express');
+ // import mongoose from 'mongoose'
 
-//  //app config
+ //app config
 const server = require("ws").Server;
 const app = express();
 const port = 8072;
 
-// // //middlewares
+// //middlewares
 app.use(express.json());
 app.use((req,res,next)=>{
   res.setHeader('Access-Control-Allow-Origin','*'),
   res.setHeader('Access-Control-Allow-Headers','*'),
   next()
-//  })
+})
 
-//  //api endpoints
-  app.get("/",(req,res)=>res.status(200).send("hello world"));
-  app.get("/chat",(req,res)=>res.status(200).send("Entering chat section")); app.get("/",(req,res)=>res.status(404).send("Error"));
-// // //listen
-  app.listen(port, ()=>console.log(`listening on localhost: ${port}`));
+// //api endpoints
+app.get("/",(req,res)=>res.status(200).send("hello world"));
+app.get("/chat",(req,res)=>res.status(200).send("Entering chat section"));
+app.get("/",(req,res)=>res.status(404).send("Error"));
+// //listen
+app.listen(port, ()=>console.log(`listening on localhost: ${port}`));
 
 const s = new server({ port: 8001});
 var rooms = [];
