@@ -1,5 +1,5 @@
   const express = require('express');
- import mongoose from 'mongoose'
+ //import mongoose from 'mongoose'
 
  //app config
 const server = require("ws").Server;
