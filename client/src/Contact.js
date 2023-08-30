@@ -8,10 +8,7 @@ function Contact() {
       word of appreciation (would mean a lot!) feel free to contact us at the
       mail address given below.
       <br />
-      email:{" "}
-      <a href="" className="link">
-        {/* Proton mail link */}
-      </a>
+      email:
     </div>
   );
 }
