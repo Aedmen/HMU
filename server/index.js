@@ -2,7 +2,7 @@
 //  //import mongoose from 'mongoose'
 
 //  //app config
-// const server = require("ws").Server;
+const server = require("ws").Server;
 //  const app = express();
 //  const port = 8072;
 
