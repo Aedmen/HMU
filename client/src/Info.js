@@ -14,10 +14,7 @@ function Info() {
       as a means of spreading and promoting adult content. Although all of the
       above features have been added to ensure users anonymity, it is upto the
       user to make sure to maintain it by not sharing his/her personal details
-      publicly. Before proceeding please read our{" "}
-      <a href="" class="link">
-        Terms and conditions{" "}
-      </a>
+      publicly. Before proceeding please read our
     </div>
   );
 }
