@@ -1,9 +1,8 @@
+//  const express = require('express');
+ // import mongoose from 'mongoose'
+
+ //app config
 const server = require("ws").Server;
-// const express = require('express');
-// // import mongoose from 'mongoose'
-
-// //app config
-
 // const app = express();
 // const port = 8072;
 
@@ -22,7 +21,7 @@ const server = require("ws").Server;
 // //listen
 // app.listen(port, ()=>console.log(`listening on localhost: ${port}`));
 
-const s = new server({ port:8001 });
+const s = new server({ port: 8001});
 var rooms = [];
 var room = [];
 var roomid = "";
