@@ -22,7 +22,7 @@ app.get("/",(req,res)=>res.status(404).send("Error"));
 //listen
 app.listen(port, ()=>console.log(`listening on localhost: ${port}`));
 
-const s = new server({ ws://hmuserver.onrender.com });
+const s = new server({ port:8001 });
 var rooms = [];
 var room = [];
 var roomid = "";
