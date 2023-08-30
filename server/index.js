@@ -1,25 +1,26 @@
-const express = require('express');
-// import mongoose from 'mongoose'
-
-//app config
 const server = require("ws").Server;
-const app = express();
-const port = 8072;
+// const express = require('express');
+// // import mongoose from 'mongoose'
 
-//middlewares
-app.use(express.json());
-app.use((req,res,next)=>{
-  res.setHeader('Access-Control-Allow-Origin','*'),
-  res.setHeader('Access-Control-Allow-Headers','*'),
-  next()
-})
+// //app config
 
-//api endpoints
-app.get("/",(req,res)=>res.status(200).send("hello world"));
-app.get("/chat",(req,res)=>res.status(200).send("Entering chat section"));
-app.get("/",(req,res)=>res.status(404).send("Error"));
-//listen
-app.listen(port, ()=>console.log(`listening on localhost: ${port}`));
+// const app = express();
+// const port = 8072;
+
+// //middlewares
+// app.use(express.json());
+// app.use((req,res,next)=>{
+//   res.setHeader('Access-Control-Allow-Origin','*'),
+//   res.setHeader('Access-Control-Allow-Headers','*'),
+//   next()
+// })
+
+// //api endpoints
+// app.get("/",(req,res)=>res.status(200).send("hello world"));
+// app.get("/chat",(req,res)=>res.status(200).send("Entering chat section"));
+// app.get("/",(req,res)=>res.status(404).send("Error"));
+// //listen
+// app.listen(port, ()=>console.log(`listening on localhost: ${port}`));
 
 const s = new server({ port: 8001 });
 var rooms = [];
